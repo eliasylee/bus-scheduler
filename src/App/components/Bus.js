@@ -3,8 +3,6 @@ import React from 'react'
 import BusHeader from './BusHeader'
 import Trip from './Trip'
 
-import { getTimeRange } from '../util/get-time-range'
-
 import './Bus.css'
 
 const Bus = ({
@@ -18,8 +16,6 @@ const Bus = ({
   const style = busIndex % 2 === 0
     ? 'grey'
     : 'white'
-
-  const { earliest, latest } = getTimeRange(bus, trips)
 
   return <div className={`bus-container ${style}`}>
     <BusHeader
