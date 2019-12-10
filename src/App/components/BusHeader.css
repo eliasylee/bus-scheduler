@@ -1,0 +1,22 @@
+.bus-header {
+  width: 135px;
+  padding: 0 20px;
+  border-right: 1px solid #DFDFDF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bus-header__number {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.bus-header__time-range {
+  font-size: 10px;
+  color: grey;
+}
+
+.bus-header__new-bus {
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.time-table {
+  width: 1616px;
+  height: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #DFDFDF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.time-table__hours-container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.time-table__hours-container__hour {
+  width: 60px;
+  font-size: 10px;
+}
